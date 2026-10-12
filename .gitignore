@@ -1,0 +1,23 @@
+# Rust 构建产物
+target/
+target_rel/
+target2/
+target3/
+target4/
+target5/
+
+# 编译出的可执行文件（作为 GitHub Release 资产单独上传，不进仓库）
+*.exe
+# Release 压缩包同样作为资产上传，不进仓库
+*.zip
+
+# Python 爬取 / 生成过程中的临时文件
+__pycache__/
+*.html
+objects.inv
+*.pyc
+
+# 编辑器 / 系统
+.DS_Store
+.vscode/
+.idea/
